@@ -1,0 +1,37 @@
+Source: golang-dns
+Section: devel
+Priority: extra
+Maintainer: Tonnerre LOMBARD <tonnerre@ancient-solutions.com>
+Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go
+Standards-Version: 3.9.4
+Homepage: http://miek.nl/projects/godns/
+Vcs-Git: https://github.com/tonnerre/godns.git
+Vcs-Browser: https://github.com/tonnerre/godns
+
+Package: golang-dns-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, golang-go
+Description: DNS protocol library for Go
+ Complete and usable DNS library. All widely used Resource Records
+ are supported, including the DNSSEC types. It follows a lean and
+ mean philosophy.  If there is stuff you should know as a DNS
+ programmer there isn't a convenience function for it. Server side
+ and client side programming is supported, i.e. you can build
+ servers and resolvers with it.
+
+Package: golang-dns-bin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: DNS tools and clients written in Go
+ Couple of tools for doing checks and queries against a DNS service,
+ such as:
+ .
+ check-soa: tool for checking SOA records, equivalent to the "DNS &
+ BIND" book version.
+ q: small utility for making queries to DNS servers and checking the
+ response signature.
+ reflect: small name server which sends back the address of the
+ requestor.
+ chaos: small program that prints the version.bind and hostname.bind
+ for each name server.
+ as112: AS112 blackhole DNS server, similar to the evldns variant.
