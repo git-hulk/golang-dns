@@ -5,8 +5,8 @@ Maintainer: Tonnerre LOMBARD <tonnerre@ancient-solutions.com>
 Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go
 Standards-Version: 3.9.4
 Homepage: http://miek.nl/projects/godns/
-Vcs-Git: https://github.com/tonnerre/godns.git
-Vcs-Browser: https://github.com/tonnerre/godns
+Vcs-Git: https://github.com/miekg/dns.git
+Vcs-Browser: https://github.com/miekg/dns/
 
 Package: golang-dns-dev
 Architecture: any
