@@ -9,7 +9,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-dns.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-dns.git;a=summary
 
 Package: golang-dns-dev
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, golang-go
 Description: DNS protocol library for Go
  Complete and usable DNS library. All widely used Resource Records
