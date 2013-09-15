@@ -18,20 +18,3 @@ Description: DNS protocol library for Go
  programmer there isn't a convenience function for it. Server side
  and client side programming is supported, i.e. you can build
  servers and resolvers with it.
-
-Package: golang-dns-bin
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: DNS tools and clients written in Go
- Couple of tools for doing checks and queries against a DNS service,
- such as:
- .
- check-soa: tool for checking SOA records, equivalent to the "DNS &
- BIND" book version.
- q: small utility for making queries to DNS servers and checking the
- response signature.
- reflect: small name server which sends back the address of the
- requestor.
- chaos: small program that prints the version.bind and hostname.bind
- for each name server.
- as112: AS112 blackhole DNS server, similar to the evldns variant.
