@@ -1,7 +1,7 @@
 Description: Fix for typo in message in zscan_rr.
  Adress is spelled with an insufficient number of ds.
 Author: Tonnerre LOMBARD <tonnerre@ancient-solutions.com>
-Forwarded: no
+Forwarded: yes, https://github.com/miekg/dns/pull/54
 Last-Update: 2013-09-15
 
 --- golang-dns-0.0~git20130912.orig/zscan_rr.go
