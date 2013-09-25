@@ -2,7 +2,7 @@ Source: golang-dns
 Section: devel
 Priority: extra
 Maintainer: Tonnerre LOMBARD <tonnerre@ancient-solutions.com>
-Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go
+Build-Depends: debhelper (>= 9), dh-golang, golang-go
 Standards-Version: 3.9.4
 Homepage: http://miek.nl/projects/godns/
 Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-dns.git
